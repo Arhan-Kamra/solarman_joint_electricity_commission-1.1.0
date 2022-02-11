@@ -397,7 +397,9 @@ main > section:first-child section.notifications li a {
 main > section:first-child section.notifications div:nth-child(1) {
   grid-area: 1/1/2/2;
   padding: 0.5rem 1rem;
-  border-bottom: 2px solid #3354a1;
+}
+main > section:first-child section.notifications div:nth-child(1) h2 {
+  border-bottom: 2px solid #c39843;
 }
 main > section:first-child section.notifications div:nth-child(1) a {
   display: block;
@@ -406,12 +408,14 @@ main > section:first-child section.notifications div:nth-child(1) a {
 main > section:first-child section.notifications div:nth-child(2) {
   grid-area: 1/2/2/3;
   padding: 0.5rem 1rem;
-  border-bottom: 2px solid #3354a1;
+}
+main > section:first-child section.notifications div:nth-child(2) h2 {
+  border-bottom: 2px solid #c39843;
 }
 main > section:first-child section.notifications div:nth-child(3) {
   grid-area: 1/3/2/4;
   padding: 0.5rem 1rem;
-  background-color: whitesmoke;
+  background-color: #d3e0ff;
 }
 main aside {
   width: 25%;
