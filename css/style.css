@@ -374,6 +374,7 @@ main > section:first-child > div:first-child > div:first-child {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  background-color: #fff;
   width: 30rem;
   height: 16.875rem;
 }
