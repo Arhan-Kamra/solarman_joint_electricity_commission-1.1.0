@@ -1,0 +1,34 @@
+// use multiplier of 1.200 for declaring font sizes
+
+$multiplier: 1.2;
+$rootFontSize: 1rem;
+
+p,
+h5 {
+  font-size: $rootFontSize;
+}
+
+h4 {
+  font-size: $rootFontSize * $multiplier;
+}
+
+h3 {
+  font-size: $rootFontSize * $multiplier * $multiplier;
+}
+
+h2 {
+  font-size: $rootFontSize * $multiplier * $multiplier * $multiplier;
+}
+
+h1 {
+  font-size: $rootFontSize * $multiplier * $multiplier * $multiplier *
+    $multiplier;
+}
+
+// Default anchor styles
+
+a {
+  font-size: 0.875rem;
+  color: $color-bright;
+  text-decoration: none;
+}
